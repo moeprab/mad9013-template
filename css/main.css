@@ -1,26 +1,72 @@
 *{
     padding: 0;
-    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
     box-sizing: border-box;
 }
 *::after,
 *::before{
+    /* pseudo-elements */
     box-sizing: inherit;
 }
 html{
     font-size: 16px;
-    font-family: 'web font', 'osx fallback', 'win fallback', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     line-height: 1.5;
 }
-header{
-    padding:1rem 2rem;
-}
+
+/* For the NAV section -------------------------- */
+
 nav{
     padding:1rem 2rem;
+    display: block;
+    background-color: hsl(180, 72%, 56%);
 }
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+#home a.home,
+#two a.two,
+#three a.three{
+    text-decoration: underline;
+}
+
+/* For the HEADER section -------------------------- */
+
+header{
+    padding:1rem 2rem;
+    background-image: url(../img/mountain.jpg);
+    background-size: cover;
+    height: 500px;
+}
+header h1 {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+header h2 {
+    color: white;
+    text-align: center;
+}
+/* For the MAIN section -------------------------- */
+
 main{
     padding:1rem 2rem;
 }
+main h2{
+    color: hsl(180, 72%, 50%);
+}
+#3rem{
+    font-size: 3rem;
+}
+#1rem{
+    font-size: 1.5rem;
+}
+
+/* For the others sections -------------------------- */
+
 section{
     padding:1rem 2rem;
 }

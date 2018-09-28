@@ -21,11 +21,12 @@ nav{
     padding:1rem 2rem;
     display: block;
     background-color: hsl(180, 72%, 56%);
+    border-bottom: 15px solid hsl(180, 72%, 14%);
 }
 nav a {
     color: white;
     text-decoration: none;
-    padding: 20px;
+    font-size: 2rem;
 }
 #home a.home,
 #two a.two,
@@ -43,12 +44,13 @@ header{
 }
 header h1 {
     color: white;
-    text-align: center;
-    padding-top: 200px;
+    text-shadow: 2px 2px 2px hsla(0,0%, 0%, 0.5);
+    font-size: 3.4rem;
 }
 header h2 {
     color: white;
-    text-align: center;
+    text-shadow: 2px 2px 2px hsla(0,0%, 0%, 0.5);
+    font-size: 1.8rem;
 }
 /* For the MAIN section -------------------------- */
 
@@ -58,10 +60,10 @@ main{
 main h2{
     color: hsl(180, 72%, 50%);
 }
-#3rem{
+#big{
     font-size: 3rem;
 }
-#1rem{
+#small{
     font-size: 1.5rem;
 }
 
